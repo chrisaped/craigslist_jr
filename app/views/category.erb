@@ -1,0 +1,7 @@
+<h2><%= @category.name %></h2>
+<a id="new_post_link" href="/<%= @category.name %>/new_post">New Post</a>
+<div id="new_post"></div>
+
+<%= erb(:post_list, layout: false) %>
+
+

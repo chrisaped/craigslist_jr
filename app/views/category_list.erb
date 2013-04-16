@@ -1,0 +1,5 @@
+<ul id="categories-list">
+  <% @categories.each do |category| %>
+    <li><a href="/<%= category.name %>"><%= category.name %></a></li>
+  <% end %>
+</ul>
